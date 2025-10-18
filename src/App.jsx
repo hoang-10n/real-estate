@@ -1,9 +1,3 @@
-// App.jsx
-// Single-file React component (default export) for a 1-page real-estate investor dashboard.
-// Dependencies (install these in your project):
-// npm install react react-dom recharts react-leaflet leaflet lucide-react
-// tailwindcss should be configured in your project for styling (or replace classes with your own CSS).
-
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer,
   LineChart, Line, CartesianGrid, PieChart, Pie, Cell, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar,
