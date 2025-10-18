@@ -68,3 +68,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.recharts-layer {
+  transform-box: fill-box;
+  background-color: white;
+  color: white;
+  fill: white;
+}
