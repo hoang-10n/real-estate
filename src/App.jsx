@@ -220,12 +220,12 @@ export default function App() {
             <div className="grid grid-cols-1 gap-2">
               {heatmapByPostcode.map(h => {
                 const danger = Math.round((h.bushfire + h.flood) / 2);
-                const bg = danger > 50 ? 'bg-red-100' : danger > 25 ? 'bg-yellow-100' : 'bg-green-50';
+                const bg = danger > 50 ? 'bg-red-900' : danger > 25 ? 'bg-yellow-900' : 'bg-green-900';
                 return (
                   <div key={h.postcode} className={`p-3 rounded-lg ${bg} flex justify-between items-center`}>
                     <div>
                       <div className="font-semibold">{h.suburb} ({h.postcode})</div>
-                      <div className="text-xs text-gray-600">Bushfire: {h.bushfire} • Flood: {h.flood}</div>
+                      <div className="text-xs text-gray-300">Bushfire: {h.bushfire} • Flood: {h.flood}</div>
                     </div>
                     <div className="text-sm font-medium">Risk: {danger}%</div>
                   </div>
