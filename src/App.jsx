@@ -47,7 +47,7 @@ const heatmapByPostcode = Object.values(assets.reduce((acc, a) => {
 
 export default function App() {
   return (
-    <div className="p-6 bg-gray-900 min-h-screen font-sans">
+    <div className="p-6 bg-gray-900 min-h-screen font-sans w-screen">
       <header className="mb-6">
         <h1 className="text-3xl font-semibold">Real Estate Investor Dashboard</h1>
         <p className="text-sm text-gray-600">One-page investor view — NABERS, certifications, risks and map.</p>
